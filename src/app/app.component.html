@@ -1,0 +1,168 @@
+<div class="page-loader" *ngIf="showLoader">
+  <div class="page-loader-body">
+    <div class="preloader-wrapper big active">
+      <div class="spinner-layer spinner-blue">
+        <div class="circle-clipper left">
+          <div class="circle"> </div>
+        </div>
+        <div class="gap-patch">
+          <div class="circle"> </div>
+        </div>
+        <div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+      <div class="spinner-layer spinner-red">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div>
+        <div class="gap-patch">
+          <div class="circle"> </div>
+        </div>
+        <div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+      <div class="spinner-layer spinner-yellow">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div>
+        <div class="gap-patch">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-clipper right">
+          <div class="circle"> </div>
+        </div>
+      </div>
+      <div class="spinner-layer spinner-green">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div>
+        <div class="gap-patch">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Page-->
+
+<div class="page">
+
+  <div class="rd-navbar-wrap rd-navbar-corporate">
+    <nav class="rd-navbar rd-navbar-original rd-navbar-static">
+      <div class="rd-navbar-collapse-toggle toggle-original"><span></span></div>
+      <div class="rd-navbar-top-panel rd-navbar-collapse novi-background toggle-original-elements">
+        <div class="rd-navbar-top-panel-inner">
+          <ul class="list-inline">
+            <li class="box-inline list-inline-item"><span class="icon novi-icon icon-md-smaller icon-secondary mdi mdi-phone"></span>
+              <ul class="list-comma">
+                <li><a href="tel:#">+911111111111</a></li>
+                <!-- <li><a href="tel:#"></a></li> -->
+              </ul>
+            </li>
+            <li class="box-inline list-inline-item"><span class="icon novi-icon icon-md-smaller icon-secondary mdi mdi-map-marker"></span><a href="#">2130 Fulton Street, San Diego, CA 94117-1080 USA</a></li>
+            <li class="box-inline list-inline-item"><span class="icon novi-icon icon-md-smaller icon-secondary mdi mdi-email"></span><a href="mailto:#">mail@demolink.org</a></li>
+          </ul>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-facebook" href="#"></a></li>
+            <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-twitter" href="#"></a></li>
+            <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-instagram" href="#"></a></li>
+            <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-google-plus" href="#"></a></li>
+            <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-linkedin" href="#"></a></li>
+          </ul>
+        </div>
+        <div class="rd-navbar-top-panel-inner"><a class="button button-sm button-secondary button-nina" href="https://www.templatemonster.com/website-templates/62466.html" target="_blank">buy template now</a></div>
+      </div>
+      <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Container wrapper -->
+  <div class="container">
+    <!-- Navbar brand -->
+    <a class="navbar-brand me-2" href="https://mdbgo.com/">
+      <img
+        src="assets/images/banner/logo.png"
+        height=""
+        alt=""
+        width="130"
+        loading="lazy"
+        style="margin-top: -1px;"
+      />
+    </a>
+
+    <!-- Toggle button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      (click)="buttonsNav.toggle()"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div
+      class="collapse navbar-collapse"
+      id="navbarButtonsExample"
+      mdbCollapse
+      #buttonsNav="mdbCollapse"
+    >
+      <!-- Left links -->
+      <ul class="rd-navbar-nav navbar-nav me-auto mb-2 mb-lg-0 ml-5">
+        <li class="nav-item" [class.active]="router.url == '/'">
+          <a class="nav-link" routerLink="/">Home</a>
+        </li>
+        <li class="nav-item" [class.active]="router.url == '/aboutus'">
+          <a class="nav-link" routerLink="/aboutus">About Us</a>
+        </li>
+      </ul>
+      <!-- Left links -->
+
+      <div class="d-flex align-items-center">
+        <!-- <button type="button" class="btn btn-link px-3 me-2">
+          Login
+        </button>
+        <button type="button" class="btn btn-primary me-3">
+          Sign up for free
+        </button>
+        <a
+          class="btn btn-dark px-3"
+          href="javascript:void(0);"
+          role="button"
+          ><i class="fab fa-github"></i
+        ></a> -->
+      </div>
+    </div>
+    <!-- Collapsible wrapper -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+    </nav>
+  </div>
+
+<router-outlet></router-outlet>
+
+<footer class="section page-footer page-footer-minimal novi-background bg-cover text-center bg-gray-darker">
+  <div class="container container-wide">
+    <div class="row row-fix justify-content-sm-center align-items-md-center row-30">
+      <div class="col-md-10 col-lg-7 col-xl-4 text-xl-left"><a href="index.html"><img class="inverse-logo" src="assets/images/banner/logo.png" alt="" width="208" height="46"/></a></div>
+      <div class="col-md-10 col-lg-7 col-xl-4">
+        <p class="right">&#169;&nbsp;<span class="copyright-year"></span> All Rights Reserved. Design&nbsp;by&nbsp;<a href="https://www.templatemonster.com">TemplateMonster</a></p>
+      </div>
+      <div class="col-md-10 col-lg-7 col-xl-4 text-xl-right">
+        <ul class="group-xs group-middle social-icons"> 
+          <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-facebook" href="#"></a></li>
+          <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-twitter" href="#"></a></li>
+          <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-instagram" href="#"></a></li>
+          <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-google" href="#"></a></li>
+          <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-linkedin" href="#"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+</div>

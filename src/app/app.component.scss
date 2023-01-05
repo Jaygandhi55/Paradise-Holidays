@@ -1,0 +1,14 @@
+.rd-navbar-static .rd-navbar-top-panel {
+    border-top: 5px;
+}
+.list-inline{
+    margin-bottom: 0;
+}
+.rd-navbar-static .rd-navbar-top-panel{
+    background-color: #0a0909ad;
+}
+@media (max-width: 575px) {
+    .rd-navbar-static .rd-navbar-top-panel {
+        display: none;
+    }
+}
