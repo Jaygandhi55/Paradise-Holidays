@@ -3,7 +3,7 @@
  * Copyright 2011-2017 The Bootstrap Authors
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */#0958cd#0958cd
+ */#33af9a#33af9a
 :root {
 	--blue: #007bff;
 	--indigo: #6610f2;
@@ -25,7 +25,7 @@
 	--breakpoint-xl: 1200px;
 	--breakpoint-xxl: 1600px;
 	--breakpoint-xxxl: 1800px;
-	--font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	--font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, ""Poppins", Helvetica Neue", Arial, sans-serif;
 	--font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
@@ -112,7 +112,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
 	margin: 0;
-	font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, ""Poppins", Helvetica Neue", Arial, sans-serif;
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 1.55556;
@@ -212,7 +212,7 @@ sup {
 }
 
 a {
-	color: #0958cd;
+	color: #33af9a;
 	text-decoration: none;
 	background-color: transparent;
 	-webkit-text-decoration-skip: objects;
@@ -423,7 +423,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
 	margin-bottom: 0.5rem;
-	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	font-family: "Poppins", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	line-height: 1.2;
 	color: #343a40;
@@ -2302,7 +2302,7 @@ fieldset[disabled] a.btn {
 
 .btn-link {
 	font-weight: 400;
-	color: #0958cd;
+	color: #33af9a;
 	background-color: transparent;
 }
 
@@ -4253,7 +4253,7 @@ button.close {
 	z-index: 1070;
 	display: block;
 	margin: 0;
-	font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, ""Poppins", Helvetica Neue", Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 1.55556;
@@ -4366,7 +4366,7 @@ button.close {
 	z-index: 1060;
 	display: block;
 	max-width: 276px;
-	font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, ""Poppins", Helvetica Neue", Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 1.55556;

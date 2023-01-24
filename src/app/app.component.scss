@@ -8,7 +8,25 @@
     background-color: #0a0909ad;
 }
 @media (max-width: 575px) {
-    .rd-navbar-static .rd-navbar-top-panel {
+    .rd-navbar-static .rd-navbar-top-panel,
+    .brand-image {
         display: none;
     }
+}
+.number{
+    color: #d2d2d2;
+}
+.navbar-toggler .fa {
+    font-style: normal;
+    color: #fff;
+}
+.navbar-brand{
+    padding-left: 1rem;
+}
+.navbar.navbar-expand-md.navbar-dark,
+.page-footer.page-footer-minimal{
+    background: #346f65 !important;
+}
+.page-footer.page-footer-minimal p.right{
+    color: #fff;
 }

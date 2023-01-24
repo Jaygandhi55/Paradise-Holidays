@@ -7,12 +7,14 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MdbCollapseModule } from 'mdb-angular-ui-kit/collapse';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    AboutusComponent
+    AboutusComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
