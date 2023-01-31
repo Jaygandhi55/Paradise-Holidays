@@ -64,12 +64,60 @@
             <li class="nav-item" [class.active]="router.url == '/'">
               <a class="nav-link" (click)="buttonsNav.hide()" routerLink="/">Home</a>
             </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Holidays
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="row">
+                  <div class="col-6">
+                    <strong class="ml-3">India</strong>
+                    <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" routerLink="/goa">Goa</a>
+                      <a class="dropdown-item" href="#">Andaman</a>
+                      <a class="dropdown-item" href="#">Kerala</a>
+                      <a class="dropdown-item" href="#">Rajasthan</a>
+                      <a class="dropdown-item" href="#">North East</a>
+                      <a class="dropdown-item" href="#">Gujarat</a>
+                      <a class="dropdown-item" href="#">Karnatak</a>
+                      <a class="dropdown-item" href="#">Odisha</a>
+                      <a class="dropdown-item" href="#">South India</a>
+                      <a class="dropdown-item" href="#">Himachal</a>
+                      <a class="dropdown-item" href="#">Uttarakhand</a>
+                      <a class="dropdown-item" href="#">Char Dham Special</a>
+                      <a class="dropdown-item" href="#">Kashmir</a>
+                      <a class="dropdown-item" href="#">Madhya Pradesh</a>
+          
+                  </div>
+                  <div class="col-6">
+                    <strong class="ml-3">International</strong>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Dubai</a>
+                    <a class="dropdown-item" href="#">Maldives</a>
+                    <a class="dropdown-item" href="#">Thailand</a>
+                    <a class="dropdown-item" href="#">Singapore</a>
+                    <a class="dropdown-item" href="#">Vietnam</a>
+                    <a class="dropdown-item" href="#">Bali</a>
+                    <a class="dropdown-item" href="#">Europe</a>
+                    <a class="dropdown-item" href="#">Mauritius</a>
+                    <a class="dropdown-item" href="#">Sri lanka</a>
+                    <a class="dropdown-item" href="#">South Africa</a>
+                    <a class="dropdown-item" href="#">Australia</a>
+                    <a class="dropdown-item" href="#">USA</a>
+                  </div>
+                </div>
+              </div>
+            </li>
             <li class="nav-item" [class.active]="router.url == '/aboutus'">
               <a class="nav-link" (click)="buttonsNav.hide()" routerLink="/aboutus">About Us</a>
             </li>
             <li class="nav-item" [class.active]="router.url == '/contactus'">
               <a class="nav-link" (click)="buttonsNav.hide()" routerLink="/contactus">Contact Us</a>
             </li>
+            <li class="nav-item" [class.active]="router.url == '/blogs'">
+              <a class="nav-link" (click)="buttonsNav.hide()" routerLink="/blogs">Blogs</a>
+            </li>
+            
           </ul>
           <form class="d-flex" role="search">
             <a class="" href="/"><img class="brand-image" src="assets/images/banner/logo3.jpeg" height="15" alt="" width="50" loading="lazy"
@@ -110,6 +158,8 @@
             href="https://www.instagram.com/aatmn_holidays/?igshid=MWI4MTIyMDE%3D"></a>&nbsp; &nbsp;
           <a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-instagram" target="_blank"
             href="https://www.instagram.com/aatmn_holidays/?igshid=MWI4MTIyMDE%3D"></a>&nbsp; &nbsp;
+          <a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-whatsapp" target="_blank"
+            href="https://wa.me/+919638730555"></a>&nbsp; &nbsp;
         </div>
 
         <div class="col-md-3 mb-5">

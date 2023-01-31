@@ -3,15 +3,16 @@
     justify-content: center;
 }
 
-.dashboard-carousel {
-    width: 90%;
-}
-
 .form-request-modern{
     background-color: #e2e2e2;
 }
 .center-align {
     justify-content: center;
+}
+@media (min-width: 760px) {
+    .dashboard-carousel {
+        width: 80%;
+    }
 }
 @media (max-width: 575px) {
     .carousel-caption p {
@@ -25,4 +26,22 @@ p.contact-p{
     font-size: 2rem;
     font-weight: 300;
     margin-right: 2rem;
+}
+.event-default-image img {
+    background-size: cover;
+}
+@media (min-width: 1200px){
+    .parallax-text {
+        font-size: 90px;
+        left: -95px;
+    }
+}
+@media (min-width: 760px) {
+    .form-request {
+        padding: 40px 22px;
+    }
+}
+.form-request-modern {
+    margin-top: 0;
+    margin-bottom: 0;
 }

@@ -8,13 +8,19 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MdbCollapseModule } from 'mdb-angular-ui-kit/collapse';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { GoaComponent } from 'src/app/all-holidays/goa/goa.component';
+import { BlogsComponent } from './blogs/blogs.component';
+import { AndamanComponent } from './all-holidays/andaman/andaman.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     AboutusComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    GoaComponent,
+    BlogsComponent,
+    AndamanComponent
   ],
   imports: [
     BrowserModule,
